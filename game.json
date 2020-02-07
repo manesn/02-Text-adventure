@@ -1,0 +1,97 @@
+{
+	"START": {
+		"name": "at... where are you exactly?",
+		"desc": "This isn't right... you were busy hard at work one minute on some code for a game, and now you're here. \nSomething is not right. \nNeedless to say, you stand in the middle of a bizarre place. \nIt's a vast, open plain of sorts, but there's no grass, trees, or anything remotely Earth-like. \nThe skies above you look very similar to the night sky, stars floating about in the darkness. \nHowever, there were strange, wispy strands floating about around the air, of every color imaginable. \nThe ground was solid and dark, almost like black marble.\nYou could see your reflection on it, and it had that overall shiny sheen to it. \nTaking a step forward, the moment your foot hits the ground, very much like rippling water, a wave of colors goes out in all directions across the ground, the rainbow ripple going beyond what the eye can see. \nYou take a few more steps forward, and watching the colors move across the ground below your feet in awe. \nYou then look up to see a shadowy silhouette standing a fair distance from you. \nThe mysterious figure then turns around, revealing himself to be an ordinary person. \nHe had messy jet black hair, golden tan skin, and wore an simple dark jacket over a red and white t-shirt, dark jeans, and black tennis shoes. \n He was somewhat tall, and very much slender. Almost like a pole. His face? Concealed by a white and red mask. \nBefore you can even say anything, he smiles. \n    ''It appears we are... connected. Wonderful. Truly wonderful.'' he said. His voice was... distorted a bit. Almost glitching. But he remained calm and collected. \n    ''Take a step into my little world... won't you? Consider it a... brief commercial break from reality.'' he said. \nWhat could be the meaning of this? What was going on? \n    ''Please... take a gander into... pure imagination. The world of my creation... what you'll see will defy explanation.'' The boy said. \nWithout warning, three doors appeared behind the enigmatic male, one was red, one was blue, and the other green. \nHe then looked back at you. \n    ''My world is full of possibilities... choose the path you wish to traverse.'' he said.",
+		"exits": [
+			{
+				"exit": "RED",
+			"target": "UNDERGROUND"
+		}, {
+			"exit": "BLUE",
+			"target": "CORUSCANT"
+		}, {
+			"exit": "GREEN",
+			"target": "LEGEND"
+			}
+		]
+	}
+	,"UNDERGROUND": {
+		"name": "now standing in the Ruins.",
+		"desc": "Opening the red door, you walk through and briefly enter darkness, and the door disappears behind you. \nAll of a sudden, everything comes into view, and the world manifests around you once more. \nA warm and loving aura could be felt here. Seeing the beauty of the bright, vivid pink brick walls, the autumn red leaves all piled up in a tidy manner... \nYou are filled with... something familiar. Strange monsters walk about and roam peacefully. \nA frog-like creature ribbits at you before hopping away. \nA bright red heart began to materialize in front of you, a bit away from where you stood. \nIt pulsates with pure energy... and you can feel it's power radiating. This fills you with... something interesting. Very interesting. \nThe outline of the boy from earlier begins to appear, around the heart. It looked as if the heart was in the middle of his body. \nThe illusory figure danced briefly, the heart flickering and flashing, in tune with an actual heartbeat... it was almost as if it had a SOUL. \nIn a flash of bright red light, the boy from earlier now stood there, smiling. \n    ''You must be wondering who I am. My name is N. You can call me that. You'll know who I am, in no time. For now... just follow me.'' he said. \nFollowing 'N' through the Ruins, you watch in awe and confusion as he dances about. Golden flowers sprout up from the ground with each step he took. The aroma of these flowers was very calming... \nN twirled about on his feet, like some sort of ballet dancer, and as he moved about, the atmosphere around you two began to change. Swirls and splashes of color appeared on the pretty pink walls. \nIt looked like Bob Ross's paint palette had been thrown all over the place. It was aesthetic, in it's own weird way. \nDoing cartwheels now, across a small bed of neatly raked leaves, plants began to sprout up from the ground, from small trees and bushes, to beautiful multi-colored flowers. \nWhat type of trip were you experiencing right now? It was all so... surreal. \nEventually, you both arrive at another doorway. This door was light grey, devoid of color. \n    ''Our next destination awaits. Close your eyes... hold your breath. Let your imagination run wild.'' N said. \n ''When you're ready, just... walk in. Don't let your imagination leave your mind.'' he added. ",
+		"exits": [
+			{
+				"exit": "DOORWAY",
+				"target": "AURESCO"
+			}
+		]
+	,"AURESCO": {
+		"name": "in the center of a beautiful traditional-style town.",
+		"desc": "placeholder",
+		"exits": [
+			{
+				"exit": "SHIP",
+				"target": "MEMORYSPACE"
+			}
+		]
+	}
+	,"MEMORYSPACE": {
+		"name": "... once again, you don't know where you are now.",
+		"desc": "placeholder",
+		"exits": [
+			{
+				"exit": "LIGHT",
+				"target": "END"
+			}
+		]
+	}
+	,"CORUSCANT": {
+		"name": "in the center of a vivid, red office, likely belonging to someone of great authority.",
+		"desc": "placeholder",
+		"exits": [
+			{
+				"exit": "DOORWAY",
+				"target": "SKYREALM"
+			}
+		]
+	}
+	,"SKYREALM": {
+		"name": "now entering what appears to be an entirely new dimension, with colorful floating islands all over the place, and you stand right on the largest one. ",
+		"desc": "placeholder",
+		"exits": [
+			{
+				"exit": "BACKDOOR",
+				"target": "MEMORYSPACE"
+			}
+		]
+	}
+	,"LEGEND": {
+		"name": "now standing in the middle of an open, grassy field, and the breath of the wild gently blows on your skin; the wind very light but noticeable.",
+		"desc": "placeholder",
+		"exits": [
+			{
+				"exit": "SHRINE",
+				"target": "WORLDOFLIGHT"
+			}
+		]
+	}
+	,"WORLDOFLIGHT": {
+		"name": "now falling, through what seems to be infinite darkness, until you finally hit solid ground... You look up.",
+		"desc": "placeholder",
+		"exits": [
+			{
+				"exit": "LIGHT",
+				"target": "MEMORYSPACE"
+			}
+		]
+	}
+	,"END": {
+		"name": "now beginning to slowly wake up, slowly realizing that everything that just happened... was a figment of your imagination.",
+		"desc": "placeholder",
+		"exits": [
+			{
+				"exit": "LIGHT",
+				"target": "MEMORYSPACE"
+			}
+		]
+	}
+}
