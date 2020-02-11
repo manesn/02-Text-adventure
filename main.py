@@ -21,7 +21,7 @@ def load_files():
 
 def render(game,current):
     c = game[current]
-    print("You are " + c["name"])
+    print("\nYou are " + c["name"])
     print(c["desc"])
 
 def get_input():
@@ -49,7 +49,7 @@ def main():
 
         for e in end_game:
             if current == e:
-                print("''There is no life I know like pure imagination... living there, you'll be free... if you truly wish to be.'' Nick said, smiling. \n''Our imagination is what makes our games games, and our dreams dreams. Without it... we would have nothing.'' he said. ''You just witnessed first hand how my imagination made a game. Thanks for playing along with me.''")
+                print("\n    Back at his dorm, Nick was at his desk. It was 3:30 AM. He was busy typing code into his latest (as in, it was a late assignment) project, and he looks up for a minute. \n ''There is no life I know to compare with pure imagination... living there, you'll be free... if you truly wish to be.'' Nick typed in, smiling. \n    ''Our imagination is what makes our games games, and our dreams dreams. Without it... we would have nothing.'' he added. \n    ''You just witnessed first hand how my imagination made a game. Thanks for playing along with me.'' \nAnd with that, his game was complete. He knew the players would be in for something... truly interesting.")
                 break #break out of the while loop
 
         response = get_input()
